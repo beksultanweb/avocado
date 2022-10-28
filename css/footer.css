@@ -1,0 +1,25 @@
+.nav-footer {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+    margin-top: 38px;
+    margin-bottom: 34px;
+}
+.footer {
+    background-color: #f3f3f3;
+}
+.footer__content {
+    padding-top: 22px;
+    padding-bottom: 27px;
+    display: flex;
+    gap: 36px;
+}
+.footer__text {
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+.footer__item {
+    display: flex;
+    gap: 8px;
+}

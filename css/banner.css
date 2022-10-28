@@ -1,0 +1,19 @@
+.banner-box {
+    background-image: url("../images/banner.jpg");
+    height: 400px;
+    border-radius: 20px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.banner-btn {
+    background-color: #82b723;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    padding: 22px 43px 22px 43px;
+}

@@ -1,0 +1,17 @@
+@import "./header.css";
+@import "./banner.css";
+@import "./search.css";
+@import "./property.css";
+@import "./about.css";
+@import "./videos.css";
+@import "./testimonals.css";
+@import "./articles.css";
+@import "./footer.css";
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}

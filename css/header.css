@@ -1,0 +1,67 @@
+.header__nav {
+    display: flex;
+    align-items: center;
+    height: 49px;
+    justify-content: space-between;
+}
+.nav {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+header {
+    background-color: #000000;
+    height: 100%;
+}
+.header {
+    background-color: #fff;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.nav-gap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-text {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.whatsapp {
+    font-size: 15px;
+    font-weight: 300;
+    color: #ffffff;
+    border: 1px solid #82b723;
+    background-color: inherit;
+    padding: 8px 20px 8px 20px;
+}
+.back-call {
+    background-color: #82b723;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+}
+button {
+    border-radius: 8px;
+    border: none;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+li {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
