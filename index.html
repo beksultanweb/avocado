@@ -17,8 +17,10 @@
             <nav class="header__nav">
                 <div class="nav-items"><img class="icon" src="./icons/location.svg" alt="location"><div class="nav-text">Аланья, Турция</div></div>
                 <div class="nav-gap">
-                    <div class="nav-items"><img class="icon" src="./icons/phone.svg" alt="phone"><div class="nav-text">+905424561569</div></div>
-                    <div class="nav-items"><img class="icon" src="./icons/phone.svg" alt="phone"><div class="nav-text">+905425934569</div></div>
+                    <div class="mobile">
+                        <div class="nav-items"><img class="icon" src="./icons/phone.svg" alt="phone"><div class="nav-text">+905424561569</div></div>
+                        <div class="nav-items"><img class="icon" src="./icons/phone.svg" alt="phone"><div class="nav-text">+905425934569</div></div>
+                    </div>
                     <button class="whatsapp">Написать в WhatsApp</button>
                     <button class="back-call">Обратный звонок</button>
                 </div>
@@ -29,14 +31,19 @@
         <div class="container">
             <nav class="nav">
                 <img class="logo" src="./icons/logo.svg" alt="logo">
-                <ul>
-                    <li>Главная</li>
-                    <li>Недвижимость</li>
-                    <li>О компании</li>
-                    <li>Услуги</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                <ul class="menu">
+                    <li class="menu__item">Главная</li>
+                    <li class="menu__item">Недвижимость</li>
+                    <li class="menu__item">О компании</li>
+                    <li class="menu__item">Услуги</li>
+                    <li class="menu__item">Отзывы</li>
+                    <li class="menu__item">Контакты</li>
                 </ul>
+                <div class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </nav>
         </div>
     </header>
@@ -223,22 +230,22 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="footer1">
         <div class="container">
             <nav class="nav-footer">
-                <img src="./icons/logo.svg" alt="logo">
-                <ul>
-                    <li>Главная</li>
-                    <li>Недвижимость</li>
-                    <li>О компании</li>
-                    <li>Услуги</li>
-                    <li>Отзывы</li>
-                    <li>Контакты</li>
+                <img class="logo" src="./icons/logo.svg" alt="logo">
+                <ul class="menu">
+                    <li class="menu__item">Главная</li>
+                    <li class="menu__item">Недвижимость</li>
+                    <li class="menu__item">О компании</li>
+                    <li class="menu__item">Услуги</li>
+                    <li class="menu__item">Отзывы</li>
+                    <li class="menu__item">Контакты</li>
                 </ul>
             </nav>
         </div>
     </footer>
-    <footer class="footer">
+    <footer class="footer2">
         <div class="container">
             <div class="footer__content">
                 <div class="footer__item">
@@ -264,5 +271,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/script.js"></script>
 </body>
 </html>

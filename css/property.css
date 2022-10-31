@@ -94,3 +94,15 @@
     gap: 66px;
     padding-left: 52px;
 }
+
+@media (max-width: 640px) {
+    .btn {
+        font-size: 20px;
+    }
+    .btn-1:checked ~ .tabs__body .tabs__block:nth-child(1),
+    .btn-2:checked ~ .tabs__body .tabs__block:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 59px 22px;
+    }
+}

@@ -5,7 +5,7 @@
     margin-top: 38px;
     margin-bottom: 34px;
 }
-.footer {
+.footer2 {
     background-color: #f3f3f3;
 }
 .footer__content {
@@ -22,4 +22,13 @@
 .footer__item {
     display: flex;
     gap: 8px;
+}
+
+@media (max-width: 640px) {
+    .footer1 {
+        display: none;
+    }
+    .footer__content {
+        flex-wrap: wrap;
+    }
 }

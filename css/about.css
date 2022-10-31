@@ -17,3 +17,9 @@ p {
     font-weight: 300;
     color: #000000;
 }
+
+@media (max-width: 640px) {
+    .about__title {
+        margin-top: 0;
+    }
+}

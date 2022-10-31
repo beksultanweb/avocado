@@ -4,6 +4,9 @@
     height: 49px;
     justify-content: space-between;
 }
+.burger {
+    display: none;
+}
 .nav {
     margin-top: 17px;
     margin-bottom: 17px;
@@ -55,12 +58,12 @@ button {
     border-radius: 8px;
     border: none;
 }
-ul {
+.menu {
     list-style: none;
     display: flex;
     gap: 40px;
 }
-li {
+.menu__item {
     font-size: 20px;
     font-weight: 400;
     color: #000;
@@ -70,11 +73,8 @@ li {
     .nav-text {
         font-size: 16px;
     }
-    ul {
+    .menu {
         gap: 20px;
-    }
-    li {
-        font-size: 18px;
     }
     .icon {
         width: 20px;
@@ -85,5 +85,75 @@ li {
     }
     .logo {
         width: 170px;
+    }
+}
+
+@media (max-width: 640px) {
+    .burger {
+        display: block;
+        width: 40px;
+    }
+    .mobile {
+        position: absolute;
+        bottom: 100px;
+        z-index: 2;
+        right: -500px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: 0.5s all;
+    }
+    .mobile_active {
+        right: 100px;
+    }
+    .mobile_active .nav-text {
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        position: absolute;
+        top: 0;
+        margin-top: 49px;
+        right: -500px;
+        transition: 0.5s all;
+        background-color: #fff;
+        padding-top: 50px;
+        padding-bottom: 200px;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+    .menu__item {
+        font-size: 24px;
+    }
+    span {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        margin-bottom: 9px;
+        transition: 0.5s all;
+    }
+    .menu_active {
+        right: 0;
+    }
+    .burger_active body {
+        overflow: hidden;
+    }
+    .burger_active span {
+        margin-bottom: -4px;
+    }
+    .burger_active span:nth-child(1) {
+        transform: rotate(-45deg);
+    }
+    .burger_active span:nth-child(2) {
+        display: none;
+    }
+    .burger_active span:nth-child(3) {
+        transform: rotate(45deg);
     }
 }
