@@ -65,3 +65,25 @@ li {
     font-weight: 400;
     color: #000;
 }
+
+@media (max-width: 1000px) {
+    .nav-text {
+        font-size: 16px;
+    }
+    ul {
+        gap: 20px;
+    }
+    li {
+        font-size: 18px;
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+    .nav-gap {
+        gap: 16px;
+    }
+    .logo {
+        width: 170px;
+    }
+}
