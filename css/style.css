@@ -21,3 +21,9 @@
         width: 940px;
     }
 }
+
+@media (max-width: 640px) {
+    .container {
+        width: 600px;
+    }
+}
