@@ -18,7 +18,6 @@
 }
 .active__tabs input:checked + label {
     height: 65px;
-    width: 403px;
     background-color: #82b723;
     color: #fff;
     transform: translateY(-5px);
@@ -95,7 +94,7 @@
     padding-left: 52px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 740px) {
     .btn {
         font-size: 20px;
     }
@@ -104,5 +103,53 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 59px 22px;
+    }
+    .see_more {
+        width: 100%;
+    }
+}
+@media (max-width: 530px) {
+    .btn {
+        font-size: 18px;
+    }
+    .tabs__btn {
+        font-size: 24px;
+    }
+    .active__tabs input:checked + label {
+        padding: 12px 10px 10px 10px;
+    }
+}
+@media (max-width: 461px) {
+    .btn {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    .btn-1:checked ~ .tabs__body .tabs__block:nth-child(1),
+    .btn-2:checked ~ .tabs__body .tabs__block:nth-child(2){
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 400px) {
+    .btn {
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .tabs__body {
+        border-radius: 8px;
+    }
+}
+@media (max-width: 360px) {
+    .btn {
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .tabs__body {
+        border-radius: 0px;
+    }
+}
+@media (max-width: 330px) {
+    .btn {
+        font-size: 13px;
     }
 }
